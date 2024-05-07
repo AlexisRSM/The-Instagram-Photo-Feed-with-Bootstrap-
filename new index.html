@@ -37,90 +37,276 @@
                 </nav>
             </div>
         </div>
-        <div class="row py-2">
+        <div class="row py-1">
             <!--  2nd row -->
             <div class="col-12">
-                <!-- icons to change format -->
-                <div class="icons d-flex justify-content-center"> <!-- icons -->
-                    <i class="fa-solid fa-table-cells mx-4"></i>
-                    <i id="change-layout" class="fa-solid fa-square"></i>
+                 <ul class="nav nav-tabs justify-content-center">
+                      <li class="nav-item">
+                        <a class="nav-link active" id="grid-tab" data-bs-toggle="tab" href="#grid" role="tab"
+                        aria-controls="grid" aria-selected="true">
+                            <i class="fa-solid fa-table-cells "></i>
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" id="list-tab" data-bs-toggle="tab" href="#list" role="tab"
+                            aria-controls="list" aria-selected="false">
+                             <i id="change-layout" class="fa-solid fa-square"></i>
+                        </a>
+                      </li>
+                </ul>
+            </div>
+        </div>
+        <div class="tab-content">
+            <div class="tab-pane fade show active" id="grid" role="tabpanel" aria-labelledby="grid-tab">
+                <!-- Grid Content -->
+                <div class="row  gx-1 my-1"> 
+                    <!--  3rd row -->
+                    <div class="col-4"><!-- 3-1 --> 
+                        <img src="https://image.petmd.com/files/styles/863x625/public/CANS_dogsmiling_379727605.jpg"
+                            alt="A Golden Retriver Smilling" width="100%" height="100%" class="object-fit-cover">
+                    </div>
+                    <div class="col-4 "><!-- 3-2 -->
+                        <img src="https://a.cdn-hotels.com/gdcs/production159/d204/01ae3fa0-c55c-11e8-9739-0242ac110006.jpg"
+                            alt="Beautifull Mounatains and Lake" width="100%" height="100%" class="object-fit-cover">
+                    </div>
+                    <div class="col-4"> <!--  3-3 -->
+                            <img src="https://media.tacdn.com/media/attractions-content--1x-1/11/cb/63/a8.jpg"
+                                alt="Montains" width="100%" height="100%" class="object-fit-cover">
+                    </div>
+                </div>
+                <div class="row gx-1 my-1"> <!--  4th row -->
+                    <div class="col-4 ">  <!--  4-1 -->
+                            <img src="https://wise.com/imaginary-v2/6320b75bc3646611000911dc9f3e5219.jpg"
+                                alt="A Golden Retriver Smilling" width="100%" height="100%" class="object-fit-cover">
+                    </div>
+                    <div class="col-4 "><!--  4-2 -->
+                            <img src="https://i.ebayimg.com/images/g/S0gAAOSwOp1gbvdm/s-l1200.webp"
+                                alt="A Cute Baby Tiger"width="100%" height="100%" class="object-fit-cover">
+                    </div>
+                    <div class="col-4"> <!-- 4-3 -->
+                            <img src="https://animals.sandiegozoo.org/sites/default/files/2016-08/hero_gray_wolf_animals.jpg"
+                                alt="A couple of wolves" width="100%" height="100%" class="object-fit-cover">
+                    </div>
+                </div>
+                <div class="row gx-1"> <!-- 5th row -->
+                    <div class="col-4 "> <!--  5-1 -->
+                            <img src="https://lp-cms-production.imgix.net/2021-06/GettyRF_543346423.jpg"
+                                alt="A Golden Retriver Smilling" width="100%" height="100%" class="object-fit-cover">
+                    </div>
+                    <div class="col-4 "><!--  5-2 -->
+                            <img src="https://www.omlet.us/images/cache/512/341/Estrela-Mountain-Dog-Puppy.jpg"
+                                alt="A Golden Retriver Smilling" width="100%" height="100%" class="object-fit-cover">
+                    </div>
+                    <div class="col-4 "> <!--  5-3 -->
+                            <img src="https://miro.medium.com/v2/resize:fit:1000/1*2c3dB30SysZ8pCtojBTSXg.jpeg"
+                                alt="A Golden Retriver Smilling" width="100%" height="100%" class="object-fit-cover">
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="list" role="tabpanel" aria-labelledby="list-tab"> <!-- List -->
+                <div class="row">
+                    <div class="col-12 bg-danger"> 
+                        <div class="card bg-warning mx-auto my-auto" style="width:50rem;">
+                            <div class="d-flex justify-content-between mx-3 my-2">
+                                <h1 class="">
+                                    My Crazy dog Spark!
+                                </h1>
+                                <p class="">08/26 </p>
+                            </div>
+                            <img src="https://image.petmd.com/files/styles/863x625/public/CANS_dogsmiling_379727605.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p>
+                                    <strong>666 Likes</strong>
+                                </p>
+                                <p class="card-text text-start">
+                                Some quick example text to build on the card title and make up the bulk of the card's content.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="div row">
+                    <div class="col-12">
+                        <div class="card bg-warning mx-auto my-auto" style="width:50rem;">
+                            <div class="d-flex justify-content-between mx-3 my-2">
+                                <h1 class="">
+                                    My Crazy dog Spark!
+                                </h1>
+                                <p class="">08/26 </p>
+                            </div>
+                            <img src="https://a.cdn-hotels.com/gdcs/production159/d204/01ae3fa0-c55c-11e8-9739-0242ac110006.jpg"
+                            <div class="card-body">
+                                <p>
+                                    <strong>666 Likes</strong>
+                                </p>
+                                <p class="card-text text-start">
+                                Some quick example text to build on the card title and make up the bulk of the card's content.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="div row">
+                    <div class="col-12">
+                        <div class="card bg-warning mx-auto my-auto" style="width:50rem;">
+                            <div class="d-flex justify-content-between mx-3 my-2">
+                                <h1 class="">
+                                    My Crazy dog Spark!
+                                </h1>
+                                <p class="">08/26 </p>
+                            </div>
+                            <img src="https://media.tacdn.com/media/attractions-content--1x-1/11/cb/63/a8.jpg"
+                                alt="Montains" width="100%" height="100%" class="object-fit-cover">
+                            <div class="card-body">
+                                <p>
+                                    <strong>666 Likes</strong>
+                                </p>
+                                <p class="card-text text-start">
+                                Some quick example text to build on the card title and make up the bulk of the card's content.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="div row">
+                    <div class="col-12">
+                        <div class="card bg-warning mx-auto my-auto" style="width:50rem;">
+                            <div class="d-flex justify-content-between mx-3 my-2">
+                                <h1 class="">
+                                    My Crazy dog Spark!
+                                </h1>
+                                <p class="">08/26 </p>
+                            </div>
+                            <img src="https://wise.com/imaginary-v2/6320b75bc3646611000911dc9f3e5219.jpg"
+                                alt="A Golden Retriver Smilling" width="100%" height="100%" class="object-fit-cover">
+                            <div class="card-body">
+                                <p>
+                                    <strong>666 Likes</strong>
+                                </p>
+                                <p class="card-text text-start">
+                                Some quick example text to build on the card title and make up the bulk of the card's content.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="div row">
+                    <div class="col-12">
+                        <div class="card bg-warning mx-auto my-auto" style="width:50rem;">
+                            <div class="d-flex justify-content-between mx-3 my-2">
+                                <h1 class="">
+                                    My Crazy dog Spark!
+                                </h1>
+                                <p class="">08/26 </p>
+                            </div>
+                            <img src="https://i.ebayimg.com/images/g/S0gAAOSwOp1gbvdm/s-l1200.webp"
+                            alt="A Cute Baby Tiger"width="100%" height="100%" class="object-fit-cover">
+                            <div class="card-body">
+                                <p>
+                                    <strong>666 Likes</strong>
+                                </p>
+                                <p class="card-text text-start">
+                                Some quick example text to build on the card title and make up the bulk of the card's content.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="div row">
+                    <div class="col-12">
+                        <div class="card bg-warning mx-auto my-auto" style="width:50rem;">
+                            <div class="d-flex justify-content-between mx-3 my-2">
+                                <h1 class="">
+                                    My Crazy dog Spark!
+                                </h1>
+                                <p class="">08/26 </p>
+                            </div>
+                            <img src="https://animals.sandiegozoo.org/sites/default/files/2016-08/hero_gray_wolf_animals.jpg"
+                            alt="A couple of wolves" width="100%" height="100%" class="object-fit-cover">
+                            <div class="card-body">
+                                <p>
+                                    <strong>666 Likes</strong>
+                                </p>
+                                <p class="card-text text-start">
+                                Some quick example text to build on the card title and make up the bulk of the card's content.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="div row">
+                    <div class="col-12">
+                        <div class="card bg-warning mx-auto my-auto" style="width:50rem;">
+                            <div class="d-flex justify-content-between mx-3 my-2">
+                                <h1 class="">
+                                    My Crazy dog Spark!
+                                </h1>
+                                <p class="">08/26 </p>
+                            </div>
+                            <img src="https://lp-cms-production.imgix.net/2021-06/GettyRF_543346423.jpg"
+                        alt="A Golden Retriver Smilling" width="100%" height="100%" class="object-fit-cover">
+                            <div class="card-body">
+                                <p>
+                                    <strong>666 Likes</strong>
+                                </p>
+                                <p class="card-text text-start">
+                                Some quick example text to build on the card title and make up the bulk of the card's content.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="div row">
+                    <div class="col-12">
+                        <div class="card bg-warning mx-auto my-auto" style="width:50rem;">
+                            <div class="d-flex justify-content-between mx-3 my-2">
+                                <h1 class="">
+                                    My Crazy dog Spark!
+                                </h1>
+                                <p class="">08/26 </p>
+                            </div>
+                            <img src="https://www.omlet.us/images/cache/512/341/Estrela-Mountain-Dog-Puppy.jpg"
+                            alt="A Golden Retriver Smilling" width="100%" height="100%" class="object-fit-cover">
+                            <div class="card-body">
+                                <p>
+                                    <strong>666 Likes</strong>
+                                </p>
+                                <p class="card-text text-start">
+                                Some quick example text to build on the card title and make up the bulk of the card's content.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="div row gy-2">
+                    <div class="col-12">
+                        <div class="card bg-warning mx-auto my-auto" style="width:50rem;">
+                            <div class="d-flex justify-content-between mx-3 my-2">
+                                <h1 class="">
+                                    My Crazy dog Spark!
+                                </h1>
+                                <p class="">08/26 </p>
+                            </div>
+                            <img src="https://miro.medium.com/v2/resize:fit:1000/1*2c3dB30SysZ8pCtojBTSXg.jpeg"
+                        alt="A Golden Retriver Smilling" width="100%" height="100%" class="object-fit-cover">
+                            <div class="card-body">
+                                <p>
+                                    <strong>666 Likes</strong>
+                                </p>
+                                <p class="card-text text-start">
+                                Some quick example text to build on the card title and make up the bulk of the card's content.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="row  gx-1 my-1"> <!-- from where display photo feed -->
-            <!--  3rd row -->
-            <div class="col-4 d-flex justify-content-center align-items-center">
-                <!-- 3-1 -->
-                <!-- <div class="" > -->
-                <img src="https://image.petmd.com/files/styles/863x625/public/CANS_dogsmiling_379727605.jpg"
-                    alt="A Golden Retriver Smilling" class="img-fluid">
-                <!--  </div> -->
 
-            </div>
-            <div class="col-4 d-flex object-fit-cover">
-                <!-- 3-2 -->
-                <!--  <div class="" > -->
-                <img src="https://t3.ftcdn.net/jpg/02/65/81/10/360_F_265811094_pS3hVVc7wpi0nbTtpNJ3mDY5MrOzgliL.jpg"
-                    alt="A Golden Retriver Smilling" class="img-fluid">
-                <!--  </div> -->
-            </div>
-            <div class="col-4 d-flex object-fit-cover">
-                <!--  3-3 -->
-                <div class="">
-                    <img src="https://image.petmd.com/files/styles/863x625/public/CANS_dogsmiling_379727605.jpg"
-                        alt="A Golden Retriver Smilling" class="img-fluid ">
-                </div>
-            </div>
-        </div>
-        <div class="row gx-1 my-1">
-            <!--  4th row -->
-            <div class="col-4 d-flex object-fit-cover">
-                <!--  4-1 -->
-                <div class="">
-                    <img src="https://image.petmd.com/files/styles/863x625/public/CANS_dogsmiling_379727605.jpg"
-                        alt="A Golden Retriver Smilling" class="img-fluid">
-                </div>
-            </div>
-            <div class="col-4 d-flex object-fit-cover">
-                <!--  4-2 -->
-                <div class="">
-                    <img src="https://image.petmd.com/files/styles/863x625/public/CANS_dogsmiling_379727605.jpg"
-                        alt="A Golden Retriver Smilling" class="img-fluid ">
-                </div>
-            </div>
-            <div class="col-4 d-flex object-fit-cover">
-                <!-- 4-3 -->
-                <div class="">
-                    <img src="https://image.petmd.com/files/styles/863x625/public/CANS_dogsmiling_379727605.jpg"
-                        alt="A Golden Retriver Smilling" class="img-fluid ">
-                </div>
-            </div>
-        </div>
-        <div class="row gx-1">
-            <!-- 5th row -->
-            <div class="col-4 d-flex object-fit-cover">
-                <!--  5-1 -->
-                <div class="">
-                    <img src="https://image.petmd.com/files/styles/863x625/public/CANS_dogsmiling_379727605.jpg"
-                        alt="A Golden Retriver Smilling" class="img-fluid ">
-                </div>
-            </div>
-            <div class="col-4 d-flex object-fit-cover">
-                <!--  5-2 -->
-                <div class="">
-                    <img src="https://image.petmd.com/files/styles/863x625/public/CANS_dogsmiling_379727605.jpg"
-                        alt="A Golden Retriver Smilling" class="img-fluid ">
-                </div>
-            </div>
-            <div class="col-4 d-flex object-fit-cover">
-                <!--  5-3 -->
-                <div class="">
-                    <img src="https://image.petmd.com/files/styles/863x625/public/CANS_dogsmiling_379727605.jpg"
-                        alt="A Golden Retriver Smilling" class="img-fluid ">
-                </div>
-            </div>
-        </div>
     </div>
+
+
+
     <!-- Modal -->
     <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
         aria-labelledby="staticBackdropLabel" aria-hidden="true">
